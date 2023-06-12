@@ -1,1 +1,1 @@
-# CPE06-Contrivance-Finals
+# CPE06-OnTech-Midterms

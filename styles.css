@@ -1,0 +1,326 @@
+@font-face {
+    font-family: Alstoria;
+    src: url(./font/alstoria/Alstoria.ttf) format("truetype");
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#Contrivance {
+    font-size: 3em;
+    font-family: Alstoria;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #f7f5e8;
+    padding-bottom: 3em;
+    padding-left: 1.5em;
+    padding-right: 3em;
+    color: black;
+}
+
+main {
+    position: relative;
+    background-image: url(./images/skateman.png);
+    background-size: cover;
+    padding: 1em;
+}
+
+figcaption h4 {
+    font-family: 'Century Gothic';
+    font-size: large;
+}
+
+.tb>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: 0.05em;
+    line-height: 1.7em;
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+    padding-top: .75em;
+    margin-right: .5em;
+}
+
+.navigation>ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-bottom: 1em;
+    padding-left: 0px;
+}
+
+#product-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+
+mark {
+    background-image: linear-gradient(to right, #d8ba67, #e9cb78);
+    border-radius: 20px 0px;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+h2 {
+    margin: 20px;
+    font-family: Alstoria;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #222;
+    color: azure;
+}
+
+.af {
+    font-weight: bold;
+    color: azure;
+}
+
+li {
+    display: grid;
+    list-style-type: none;
+}
+
+.addr,
+h3 {
+    color: white;
+    margin-bottom: 1em;
+}
+
+address {
+    padding: 1em;
+}
+
+blockquote {
+    background-color: #002E25;
+    line-height: 1.15;
+    text-align: center;
+    color: white;
+}
+
+q {
+    font-size: xx-large;
+}
+
+cite {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+
+marquee {
+    background-color: black;
+    color: azure;
+    font-size: 2em;
+    padding: 5px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.product {
+    box-shadow: rgb(0, 46, 37) 0px 0px, rgba(0, 46, 37, 0.4) 0px 0px, rgb(10, 88, 73, 0.3) 0px 0px, rgb(27, 105, 90, 0.2) 0px 0px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product:hover {
+    box-shadow: rgba(0, 46, 37, 0.7) 3px 3px, rgba(0, 46, 37, 0.4) 5px 5px, rgb(10, 88, 73, 0.3) 8px 8px, rgb(27, 105, 90, 0.2) 11px 11px;
+}
+
+figure {
+    height: 100%;
+    transition: height 0.3s ease-in-out;
+}
+
+figure:hover {
+    height: 103%;
+}
+
+.product {
+    margin-top: 1em;
+}
+
+button:hover {
+    border-radius: 7px;
+    color: #002E25;
+    border-color: #002E25;
+    background-color: azure;
+    padding: 21px;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+}
+
+button {
+    border-radius: 7px;
+    color: azure;
+    border-color: azure;
+    background-color: #002E25;
+    padding: 21px;
+    font-family: 'Century Gothic';
+}
+
+h1 small {
+    margin-left: 1em;
+    font-family: Alstoria;
+}
+
+.true {
+    font-family: Alstoria;
+    font-size: 60px;
+    margin-bottom: .5em;
+}
+
+.lineup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.search-bar {
+    height: fit-content;
+    width: 520px;
+    padding: 1em;
+    margin-right: 3em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px 1px;
+}
+
+figure button {
+    margin: 10px;
+}
+
+figcaption {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1em;
+    width: 250px;
+    padding: 1em;
+}
+
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1.6fr repeat(2, 1fr);
+    grid-gap: 1.5em;
+    background-color: #002E25;
+    padding: 1.25em;
+    line-height: 1.5em;
+}
+
+.bLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+}
+
+#product-list {
+    gap: 1em;
+}
+
+
+@media (max-width: 767px) {
+    header img {
+        display: none;
+    }
+
+    .search-bar {
+        width: 100%;
+        display: none;
+    }
+
+    .tb>p {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 16px;
+        line-height: 1.75;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    blockquote {
+        text-align: center;
+        line-height: 1.25;
+    }
+
+    #product-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        margin-bottom: 1.75em;
+    }
+
+    .navigation>ul>li {
+        margin: 3px;
+        background-color: #d8ba67;
+        border-radius: 1em;
+    }
+
+    
+}

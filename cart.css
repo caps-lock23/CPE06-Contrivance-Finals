@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Alstoria;
+  src: url(./font/alstoria/Alstoria.ttf) format("truetype");
+}
+
+body {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+  background-color: #f7f5e8;
+}
+
+.cart-item {
+  list-style: none;
+  padding: 10px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+
+.cart-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cart-item-price {
+  color: #888;
+  font-size: 14px;
+}
+
+.cart-item-actions {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-quantity {
+  width: 40px;
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.cart-total {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.checkout-btn {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #002E25;
+  border-style: hidden;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+#banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+header {
+  background-color: #d8ba67;
+}
+
+a {
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+  padding: .5em;
+  color: black;
+}
+
+a:hover {
+  background-color: #222;
+  color: azure;
+}
+
+.footer {
+  background-color: #002E25;
+}
+
+.head {
+  font-size: 3em;
+  font-family: Alstoria;
+}
+
+#return {
+  background-color: #002E25;
+  border-radius: 5px;
+  padding: .75em;
+  width: fit-content;
+}
+
+#return>a {
+  color: white;
+}
+
+.empty {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .head {
+    display: flex;
+    font-size: 2em;
+    text-align: center;
+  }
+  #banner {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .links {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Alstoria;
+  src: url(./font/alstoria/Alstoria.ttf) format("truetype");
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f3eab0;
+  padding: 20px;
+  color: black;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  color: black;
+  font-weight: bold;
+  font-family: Alstoria;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #222;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div p {
+  font-size: 1.3em;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 0.8em;
+  border-radius: 10px 0px 0px 50px;
+  align-self: flex-end;
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contrivance {
+  font-family: Alstoria;
+  font-size: 100px;
+  display: inline-block;
+}
+
+.contrivance:hover
+{
+  font-family: Alstoria;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 100px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

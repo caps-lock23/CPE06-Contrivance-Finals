@@ -1,0 +1,35 @@
+INSERT INTO products (name, price, description, image)
+VALUES ('Urban Contrivance', 600, 'A stylish and comfortable cotton t-shirt featuring a unique graphic logo.', '1.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Boy In a Dream', 630, 'Unwind in this cool and comfortable cotton shirt featuring a dreamy vibe.', '2.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Butterfly Effect', 800, 'Spread your wings and soar in this stylish cotton shirt as we grow together', '3.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Frog Avocado', 600, 'Get em hooked as you reel in the greeny vibe with this striking shirt', '4.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Classic', 550, "The good ol' timeless and elegant classic with breathable cotton material", '5.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Boy In a Dream White', 630, "White Variant", '6.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Urban Contrivance White', 600, "White Variant", '7.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Back in Black', 600, "Be back in black with this slick apparel made from cotton", '8.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Orange Pop', 650, "Get your contrivance in orange pop", '9.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Classic-L', 550, "Lilac Variant", '10.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Classic-R', 550, "Red Variant", '11.jpg');
+
+INSERT INTO products (name, price, description, image)
+VALUES ('Classic-V', 550, "Red Variant", '12.jpg');
